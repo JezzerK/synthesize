@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Grapheme\u2192Color Reader",
+  "version": "1.1.0",
+  "description": "Colorize letters and numbers across the web to train grapheme-color associations. Now with site whitelist/blacklist.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Grapheme\u2192Color",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
