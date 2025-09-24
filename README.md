@@ -21,7 +21,7 @@ This Chrome extension is based on training protocols from *Bor et al. (2014)*, w
 ---
 
 ## Installation (Developer Mode)  
-Until it’s live on the Chrome Web Store, you can test locally:  
+It's live on the Chrome Web Store, but you can run locally by:
 
 1. Download the latest release ZIP from this repo.  
 2. Extract it to a folder.  
