@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "synthesize",
+  "version": "1.8.6",
+  "description": "Inspired by science, \"synthesize\" recolors numbers and letters on webpages to induce synesthesia in the user!",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "synthesize",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
