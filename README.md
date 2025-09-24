@@ -55,5 +55,5 @@ No other permissions are required.
 
 ---
 
-## 📝 License  
+## License  
 MIT License. See [LICENSE](LICENSE) for details.  
