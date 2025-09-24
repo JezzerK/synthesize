@@ -4,6 +4,8 @@ Inspired by science, **synthesize** recolors numbers and letters on webpages to 
 
 This Chrome extension is based on training protocols from *Bor et al. (2014)*, which showed that non-synesthetes can acquire synesthesia-like experiences through repeated, adaptive exposure.  
 
+I did most of the hard parts with ChatGPT since I'm lazy, so please forgive me if the code is clunky or unconventional in some parts. I've also never built a chrome extension before.
+
 ---
 
 ## Features  
